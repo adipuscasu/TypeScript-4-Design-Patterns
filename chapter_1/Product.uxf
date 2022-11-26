@@ -1,0 +1,11 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>250</y><w>100</w><h>80</h></coordinates><panel_attributes> &lt;&lt;Identifiable&gt;&gt; 
+(C)Product
+--
+
+-
+id: string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>280</x><y>70</y><w>140</w><h>120</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+(I) Identifiable
+--
+
+-
+id:&lt;string | number&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>80</y><w>280</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;170;260;10</additional_attributes></element></diagram>

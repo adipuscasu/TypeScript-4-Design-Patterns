@@ -1,0 +1,1 @@
+class UsersApiClient extends BaseClient {}

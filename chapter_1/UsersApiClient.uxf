@@ -1,0 +1,9 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>Relation</id><coordinates><x>50</x><y>70</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>10</y><w>100</w><h>70</h></coordinates><panel_attributes>(C)
+BaseClient
+--
+--
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>190</y><w>100</w><h>110</h></coordinates><panel_attributes>(C)
+UsersApiClient
+--
+--
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element></diagram>

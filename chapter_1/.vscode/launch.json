@@ -1,0 +1,40 @@
+{
+  "inputs": [
+    {
+      "type": "pickString",
+      "id": "programNameChapter1",
+      "description": "What program you want to launch?",
+      "options": [
+        "computeFrequency.ts",
+        "removeDuplicateVars.ts",
+        "example.ts",
+      ],
+      "default": "computeFrequency.ts"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Launch removeDuplicateChars",
+      "program": "${workspaceFolder}/removeDuplicateChars.ts",
+      "request": "launch",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "outFiles": [
+        "${workspaceFolder}/dist/**/*.js"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/computeFrequency.ts",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "outFiles": [
+        "${workspaceFolder}/dist/**/*.js"
+      ]
+    }
+  ]
+}
