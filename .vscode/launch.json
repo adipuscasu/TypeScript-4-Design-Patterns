@@ -15,7 +15,7 @@
   "configurations": [
     {
       "name": "Launch removeDuplicateChars",
-      "program": "${workspaceFolder}/removeDuplicateChars.ts",
+      "program": "${workspaceFolder}/chapter_1/removeDuplicateChars.ts",
       "request": "launch",
       "preLaunchTask": "tsc: build - tsconfig.json",
       "outFiles": [
@@ -30,7 +30,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/computeFrequency.ts",
+      "program": "${workspaceFolder}/chapter_1/computeFrequency.ts",
       "preLaunchTask": "tsc: build - tsconfig.json",
       "outFiles": [
         "${workspaceFolder}/dist/**/*.js"
