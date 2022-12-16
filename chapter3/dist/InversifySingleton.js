@@ -13,7 +13,7 @@ let TYPES = {
 };
 let UsersApiServiceImp = class UsersApiServiceImp {
     getUsers() {
-        return Promise.resolve(["Alex", "John", "Sarah"]);
+        return Promise.resolve(["Alex", "John", "Sarah", "Adrian"]);
     }
 };
 UsersApiServiceImp = __decorate([

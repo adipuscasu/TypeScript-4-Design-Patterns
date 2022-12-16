@@ -1,0 +1,17 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>100</x><y>320</y><w>190</w><h>70</h></coordinates><panel_attributes>lw=2
+(I)Prototype
+--
+--
++clone(): Prototype</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>480</y><w>190</w><h>70</h></coordinates><panel_attributes>lw=2
+(C) Item1
+--
+--
++clone(): Item1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>380</y><w>110</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>90;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>480</y><w>190</w><h>70</h></coordinates><panel_attributes>lw=2
+(C) Item2
+--
+--
++clone(): Item2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>380</y><w>220</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;200;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>90</y><w>190</w><h>70</h></coordinates><panel_attributes>lw=2
+(C) User
+--
+--
+item: Prototype</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>150</y><w>30</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element></diagram>

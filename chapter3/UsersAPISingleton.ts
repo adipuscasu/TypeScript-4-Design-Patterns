@@ -1,8 +1,10 @@
 export class UsersAPISingleton {
     private static instance: UsersAPISingleton;
-    private constructor(){}
-    static getInstance(){
-        if(!UsersAPISingleton.instance) {
+
+    private constructor() { }
+
+    static getInstance() {
+        if (!UsersAPISingleton.instance) {
             UsersAPISingleton.instance = new UsersAPISingleton();
         }
 

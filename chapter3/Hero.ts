@@ -1,0 +1,3 @@
+interface HeroPrototype {
+    clone(): HeroPrototype;
+}

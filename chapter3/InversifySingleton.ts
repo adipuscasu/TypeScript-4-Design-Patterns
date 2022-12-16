@@ -1,6 +1,5 @@
 import "reflect-metadata";
-import {injectable, Container } from "inversify";
-import { UsersAPISingleton } from "./UsersAPISingleton";
+import { injectable, Container } from "inversify";
 interface UsersApiService {
     getUsers(): Promise<string[]>;
 }
@@ -12,7 +11,7 @@ let TYPES = {
 @injectable()
 class UsersApiServiceImp implements UsersApiService {
     getUsers(): Promise<string[]> {
-        return Promise.resolve(["Alex", "John", "Sarah"]);
+        return Promise.resolve(["Alex", "John", "Sarah", "Adrian"]);
     }
 }
 
